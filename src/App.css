@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #F8F005;
+  background-color: rgb(61, 61, 61);
 }
 
 button, button::after {
@@ -93,4 +93,9 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
+}
+p {
+  color: #fff;
+  text-align: center;
+  font-size: xx-large;
 }
